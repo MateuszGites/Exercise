@@ -45,4 +45,5 @@ jobs:
       - name: Removing file2.txt
         run: rm file2.txt
       
-
+      - name: Pushing changes
+        run: git push
