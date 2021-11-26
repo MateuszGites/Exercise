@@ -41,5 +41,8 @@ jobs:
         
       - name: Running script.sh file
         run: bash ./script.sh
+        
+      - name: Removing file2.txt
+        run: rm file2.txt
       
 
